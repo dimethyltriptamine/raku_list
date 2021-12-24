@@ -70,8 +70,8 @@ class LinkedList {
 			$cur_node = $cur_node.next;
 		}
 	}
-	method length() {
-		my $i = 0;
+	method length(--> Int) {
+		my Int $i = 0;
 		my $node = self.head;
 		while $node {
 			$i++;

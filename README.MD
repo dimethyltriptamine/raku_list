@@ -58,7 +58,7 @@ The methods of the class are:
 * `pop_tail(--> Bool)`: deletes the last element from the list,
   returns `False` if the list is empty.
 * `print()`: Iterates every element and prints the `value`.
-* `length()`: returns the length of the list by iterating each element.
+* `length(--> Int)`: returns the length of the list by iterating each element.
 * `get($n)`: returns the **node** at entry `$n`, so to get the value
   you should do my $value = $list.get($n).value;
 * `destroy()`: sets the `head` to `Nil`, destroying the list.
