@@ -1,0 +1,13 @@
+{
+	    "name": "LinkedList",
+	    "description": "Linked List implementation",
+	    "version": "1",
+	    "perl": "6.d",
+	    "authors": [
+	        "qorg11"
+	    ],
+	    "provides": {
+			   "LinkedList": "lib/LinkedList.pm",
+	    },
+	    "license": "WTFPL"
+}
