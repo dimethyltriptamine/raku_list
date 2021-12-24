@@ -4,10 +4,10 @@
 	    "version": "1",
 	    "perl": "6.d",
 	    "authors": [
-	        "qorg11"
+		   "qorg11"
 	    ],
 	    "provides": {
-			   "LinkedList": "lib/LinkedList.pm",
+			   "LinkedList": "lib/LinkedList.pm6"
 	    },
 	    "license": "WTFPL"
 }
